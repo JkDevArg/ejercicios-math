@@ -27,7 +27,7 @@
     //Calculo de distancia P2P3
     $dp2p3=distancia($x2,$y2,$x3,$y3);
 
-    //Caulculamos el promedio de la distancia como tal
+    //Calculamos el promedio de la distancia como tal
     $pDistancia = ($dp1p2+$dp1p3+$dp2p3)/3;
 
     echo "La distancia promedio entre los tres (03) Punto es.: $pDistancia";
